@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Tarea Investigación JavaScript</title>
+    <link rel="stylesheet" href="sytle.css">
+</head>
+<body>
+    <header>
+        <h1>Ejemplos Complejos de JavaScript</h1>
+    </header>
+
+    <section>
+        <h2>Verificación de Roles y Control de Flujo</h2>
+        <label for="role">Ingresa tu rol:</label>
+        <input type="text" id="role" placeholder="admin, user, guest">
+        <button onclick="verificarRol()">Verificar Rol</button>
+        <div id="output-roles"></div>
+    </section>
+
+    <section>
+        <h2>Operaciones Matemáticas y Fechas</h2>
+        <label for="numero">Ingresa un número:</label>
+        <input type="number" id="numero">
+        <button onclick="calcularRaiz()">Calcular Raíz Cuadrada</button>
+        <div id="output-math"></div>
+        <button onclick="mostrarFecha()">Mostrar Fecha Actual</button>
+        <div id="output-date"></div>
+    </section>
+
+    <section>
+        <h2>Manejo de Errores y Bucles</h2>
+        <label for="edad">Ingresa tu edad:</label>
+        <input type="number" id="edad">
+        <button onclick="validarEdad()">Validar Edad</button>
+        <div id="output-error"></div>
+    </section>
+
+    <section>
+        <h2>Colecciones, Operadores y DOM</h2>
+        <button onclick="mostrarLista()">Mostrar Lista</button>
+        <div id="output-lista"></div>
+        <button onclick="mostrarDatosTipados()">Mostrar Datos Tipados</button>
+        <div id="output-tipados"></div>
+    </section>
+
+    <section>
+        <h2>Búsqueda en el DOM</h2>
+        <button onclick="buscarPorID()">Buscar Elemento por ID</button>
+        <div id="output-dom"></div>
+    </section>
+
+    <script src="main.js"></script>
+</body>
+</html>
